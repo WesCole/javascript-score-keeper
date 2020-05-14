@@ -1,0 +1,53 @@
+*{
+	font-family: fantasy;
+}
+.winner {
+	color:rgb(0, 81, 255);
+	text-shadow: 2px 3px 3px white;
+}
+
+h1{
+	text-align: center;
+	margin-top: 8%;
+}
+
+div{
+	color: white;
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 25%;
+	background-color: rgb(75, 174, 255);
+	padding: 20px;
+	width: 50%;
+	box-shadow: 1px 2px 3px black;
+	border-radius: 10px;
+}
+
+div > h1{
+	font-size: 70px;
+}
+
+div> p{
+	font-size: 30px;
+}
+
+div> input{
+	padding: 10px;
+	border: none;
+	font-size: 25px;
+	text-align: center;
+}
+
+div> button:hover{
+   background-color: rgb(28, 28, 133);
+   color: white;
+   transform: scale(.95);
+}
+
+div> button{
+	padding:8px;
+	font-size: 25px;
+	background-color: rgb(59, 59, 221);
+	border-radius: 5px;
+	border: none;
+}
