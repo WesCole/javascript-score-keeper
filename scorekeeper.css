@@ -1,9 +1,11 @@
 *{
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-family: -apple-system, 
+	BlinkMacSystemFont, 'Segoe UI', Roboto, 
+	Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .winner {
-	color:rgb(0, 81, 255);
-	text-shadow: 2px 3px 3px white;
+	color:rgb(184, 184, 184);
+	text-shadow: 2px 3px 3px black;
 }
 
 h1{
@@ -16,11 +18,16 @@ div{
 	text-align: center;
 	margin-top: 3%;
 	margin-left: 25%;
-	background-color: rgb(75, 174, 255);
+	background-color: rgb(30, 37, 42);
 	padding: 20px;
 	width: 50%;
-	box-shadow: 1px 2px 3px black;
+	box-shadow: 2px 2px 3px black;
+	border: 3px solid red;
 	border-radius: 10px;
+}
+
+.body{
+	padding-bottom: 100px;
 }
 
 div > h1{
@@ -39,15 +46,29 @@ div> input{
 }
 
 div> button:hover{
-   background-color: rgb(28, 28, 133);
-   color: white;
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
    transform: scale(.95);
 }
 
 div> button{
 	padding:8px;
 	font-size: 25px;
-	background-color: rgb(59, 59, 221);
+	background-color: rgb(189, 189, 189);
 	border-radius: 5px;
-	border: none;
 }
+
+@media (max-width: 1280px){
+	div > button{
+		width: 60%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 768px){
+	div > .body{
+		margin-top: 500px;
+	}
+}
+
+
